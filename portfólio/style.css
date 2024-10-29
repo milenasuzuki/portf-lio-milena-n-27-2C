@@ -1,13 +1,27 @@
 body{
     background-color: azure;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    border: red solid 3px;
+    height: auto;
+    border: rgb(89, 182, 236) solid 3px;
+    text-align: center;
+    
 }
 
 img{
     border-radius: 120px;
     width: 100px;
+    padding: 5px 0 0 0;
+}
+
+.perfil{
+    font-size: 28px;
+    color: rgb(74, 76, 211);
+    font-family: Verdana;
+}
+
+h1{
+    font-size: 36px;
+    
 }
