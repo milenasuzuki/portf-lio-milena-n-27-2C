@@ -1,12 +1,19 @@
+html{
+    background-color: white;
+    padding: 5rem;
+}
+
 body{
     background-color: azure;
     display: block;
     justify-content: center;
     align-items: center;
+    max-width: 150vh;
     height: auto;
     border: rgb(89, 182, 236) solid 3px;
+    border-radius: 20px;
     text-align: center;
-    
+    padding-top: 5rem;
 }
 
 img{
@@ -19,9 +26,30 @@ img{
     font-size: 28px;
     color: rgb(74, 76, 211);
     font-family: Verdana;
+    font-weight: bold;
 }
 
 h1{
     font-size: 36px;
-    
+    font-family: verdana;
+
+}
+
+.desc{
+    color: darkslategrey;
+}
+
+a{
+    background-color: darkgrey;
+    color: black;
+    padding: 5px 1rem;
+    border-radius: 10px;
+    direction: none;
+    margin: 1rem;
+}
+
+h2{
+    text-align: left;
+    padding-top: 3rem;
+    font-family: verdana;
 }
